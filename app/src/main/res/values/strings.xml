@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">DemoLiveData</string>
+    <string name="hc_vang">HC Vang</string>
+    <string name="hc_bac">HC Bac</string>
+    <string name="hc_dong">HC Dong</string>
+</resources>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#03A9F4"
+    tools:context=".ControlFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="16dp"
+            android:text="Vang"
+            android:textColor="#AF063F"
+            android:textSize="20sp">
+
+        </TextView>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp">
+
+            <ImageButton
+                android:id="@+id/btnGoldPlus"
+                android:src="@drawable/ic_add"
+                android:clickable="true"
+                android:background="#FFEB3B"
+                android:layout_marginLeft="16dp"
+                android:layout_width="80dp"
+                android:layout_height="50dp">
+
+            </ImageButton>
+            <TextView
+                android:id="@+id/tvGold"
+                android:layout_toRightOf="@+id/btnGoldPlus"
+                android:layout_marginLeft="80dp"
+                android:layout_centerInParent="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="20sp"/>
+            <ImageButton
+                android:id="@+id/btnGoldSub"
+                android:src="@drawable/ic_remove"
+                android:clickable="true"
+                android:background="#FFEB3B"
+                android:layout_marginRight="16dp"
+                android:layout_alignParentRight="true"
+                android:layout_width="80dp"
+                android:layout_height="50dp"/>
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="16dp"
+            android:text="Bac"
+            android:textColor="#AF063F"
+            android:textSize="20sp">
+
+        </TextView>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/btnSilverPlus"
+                android:src="@drawable/ic_add"
+                android:clickable="true"
+                android:background="#FFEB3B"
+                android:layout_marginLeft="16dp"
+                android:layout_width="80dp"
+                android:layout_height="50dp"/>
+            <TextView
+                android:id="@+id/tvSilver"
+                android:layout_marginLeft="80dp"
+                android:layout_centerInParent="true"
+                android:layout_toRightOf="@+id/btnSilverPlus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="20sp"/>
+            <ImageButton
+                android:id="@+id/btnSilverSub"
+                android:src="@drawable/ic_remove"
+                android:clickable="true"
+                android:background="#FFEB3B"
+                android:layout_marginRight="16dp"
+                android:layout_alignParentRight="true"
+                android:layout_width="80dp"
+                android:layout_height="50dp"/>
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="16dp"
+            android:text="Dong"
+            android:textColor="#AF063F"
+            android:textSize="20sp">
+
+        </TextView>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/btnBronzePlus"
+                android:src="@drawable/ic_add"
+                android:clickable="true"
+                android:background="#FFEB3B"
+                android:layout_marginLeft="16dp"
+                android:layout_width="80dp"
+                android:layout_height="50dp"/>
+
+            <TextView
+                android:id="@+id/tvBronze"
+                android:layout_marginLeft="80dp"
+                android:layout_centerInParent="true"
+                android:layout_toRightOf="@+id/btnBronzePlus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="20sp"/>
+            <ImageButton
+                android:id="@+id/btnBronzeSub"
+                android:src="@drawable/ic_remove"
+                android:clickable="true"
+                android:background="#FFEB3B"
+                android:layout_marginRight="16dp"
+                android:layout_alignParentRight="true"
+                android:layout_width="80dp"
+                android:layout_height="50dp"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

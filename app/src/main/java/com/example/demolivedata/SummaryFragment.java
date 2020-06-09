@@ -58,7 +58,7 @@ public class SummaryFragment extends Fragment {
 
     private void displaySummaryMedal() {
         totalMedal = mViewModel.getGoldMedal().getValue() + mViewModel.getSilverMedal().getValue() + mViewModel.getBronzeMedal().getValue();
-        tvSummary.setText(String.valueOf(totalMedal));
+        tvSummary.setText(String.valueOf(totalMedal) + " Huy Chuong");
     }
 
     @Override
